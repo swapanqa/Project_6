@@ -11,6 +11,11 @@ public class SaksFunctionalityPOM extends ScriptCompositeSaks {
     public void mergeConflictTest(){
         
     }
+    @Test
+    public void mergeConflictLocal(){
+
+    }
+
     
 
 
@@ -19,6 +24,7 @@ public class SaksFunctionalityPOM extends ScriptCompositeSaks {
         homePage.browseToSite();
         homePage.iframeHome();
     }
+
 
 
 
