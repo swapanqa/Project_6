@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
 public class BaseSteps {
     public static final int DEFAULT_WAIT_TIME = 10;
 
-    protected WebDriver driver = DriverFactory.getInstance().getDriver();
+    protected WebDriver driver = DriverFactory.getInstance("chorom").getDriver();
 
 
     public BaseSteps(){

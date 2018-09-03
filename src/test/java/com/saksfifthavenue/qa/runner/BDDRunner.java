@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         //tags = { "@smoke,@debug" }, /* debug or smoke test */
         //tags = { "@smoke","@debug" },  /* debug and smoke test */
         //monochrome = true,
-        features= "src/test/resources/features/",
+        features= "src/test/resources/features/SakeShipToAbroad.feature",
 
 
         //glue =  "com.saksfifthave.qa.framework.utils.steps",

@@ -3,10 +3,15 @@ package com.saksfifthave.qa.framework.utils.steps;
 import com.saksfifthave.qa.framework.utils.Utils.DriverFactory;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
+import org.openqa.selenium.WebDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class BeforeAfterHook extends StepBase {
+public class BeforeAfterHook extends BaseSteps/*extends StepBase*/ {
+
+
+
+
     @Before
     public void setup() {
        // ChromeDriverManager.getInstance().setup();
@@ -22,8 +27,8 @@ public class BeforeAfterHook extends StepBase {
 
     @After
     public void tearDown() {
-        driver.close();
-        driver.quit();
+//        driver.close();
+//        driver.quit();
 
         DriverFactory.getInstance().removeDriver();
     }
