@@ -7,43 +7,7 @@ import org.junit.runners.Parameterized;
 
 @RunWith(Parameterized.class)
 public class SaksFunctionalityPOM extends ScriptCompositeSaks {
-    @Test
-    public void mergeConflictTest(){
-        
-        
-    }
 
-    @Test
-    public void mergeConflictTest3(){
-
-
-     @Test
-    public void mergeConflictTest4(){
-        
-        
-    }
-     @Test
-    public void mergeConflictTest2(){
-        
-        
->>>>>>> origin/master
-    }
-    @Test
-    public void mergeConflictTest5(){
-
-    }
-
-
-
-    @Test
-    public void mergeConflictTest2(){
-     }
-    @Test
-    public void mergeConflictLocal(){
-
-    }
-
-    
 
 
     @Test
