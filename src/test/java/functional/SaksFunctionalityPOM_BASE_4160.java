@@ -12,32 +12,11 @@ public class SaksFunctionalityPOM extends ScriptCompositeSaks {
         
         
     }
-<<<<<<< HEAD
-    @Test
-    public void mergeConflictTest3(){
-
-=======
-     @Test
-    public void mergeConflictTest4(){
-        
-        
-    }
      @Test
     public void mergeConflictTest2(){
         
         
->>>>>>> origin/master
     }
-    @Test
-    public void mergeConflictTest5(){
-
-    }
-
-
-
-    @Test
-    public void mergeConflictTest2(){
-     }
     @Test
     public void mergeConflictLocal(){
 
